@@ -14,6 +14,8 @@ import { HighlightsComponent } from './components/highlights/highlights.componen
 import { HighlightsCardComponent } from './components/highlights-card/highlights-card.component';
 import { TopHomeComponent } from './components/top-home/top-home.component';
 import { TopReservationsComponent } from './components/top-reservations/top-reservations.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { ReservationComponent } from './components/pages/reservation/reservation.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { TopReservationsComponent } from './components/top-reservations/top-rese
     HighlightsComponent,
     HighlightsCardComponent,
     TopHomeComponent,
-    TopReservationsComponent
+    TopReservationsComponent,
+    HomeComponent,
+    ReservationComponent
   ],
   imports: [
     BrowserModule,
